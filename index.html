@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Web Player</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <div class="logo">
+    <i class="fa-brands fa-spotify"></i>
+    <span>Spotify</span>
+</div>
+
+<div class="menu">
+    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+
+    <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+
+    <a href="#"><i class="fa-solid fa-book"></i> Your Library</a>
+</div>
+
+<hr>
+
+<div class="playlist-section">
+
+    <h4>Your Playlists</h4>
+
+    <a href="#">❤️ Liked Songs</a>
+
+    <a href="#">🎧 Chill Mix</a>
+
+    <a href="#">🎵 Daily Mix 1</a>
+
+    <a href="#">🎤 Pop Hits</a>
+
+    <a href="#">🎸 Rock Classics</a>
+
+</div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+
+            <div class="top-bar">
+
+    <div class="navigation">
+        <button><i class="fa-solid fa-chevron-left"></i></button>
+        <button><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <div class="profile">
+        <i class="fa-solid fa-user"></i>
+        <span>Kavya</span>
+    </div>
+
+</div>
+
+<h1>Good Evening</h1>
+
+<div class="cards">
+
+    <div class="card">
+        <img src="https://picsum.photos/200?11">
+        <h3>Today's Top Hits</h3>
+        <p>The biggest hits right now.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200?12">
+        <h3>Chill Mix</h3>
+        <p>Relaxing songs.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200?13">
+        <h3>Workout</h3>
+        <p>Power through your workout.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200?14">
+        <h3>Pop Mix</h3>
+        <p>Latest pop music.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200?15">
+        <h3>Daily Mix</h3>
+        <p>Your favorite artists.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200?16">
+        <h3>Rock Classics</h3>
+        <p>Legendary rock songs.</p>
+    </div>
+
+</div>
+
+    <!-- Bottom Music Player -->
+    <div class="player">
+
+    <!-- Left -->
+    <div class="song-info">
+        <img src="https://picsum.photos/60?17" alt="Album Cover">
+
+        <div>
+            <h4>Night Changes</h4>
+            <p>One Direction</p>
+        </div>
+
+        <i class="fa-regular fa-heart" id="likeBtn"></i>
+    </div>
+
+    <!-- Center -->
+    <div class="player-controls">
+
+        <div class="buttons">
+            <i class="fa-solid fa-backward-step"></i>
+
+            <i class="fa-solid fa-circle-play play-btn"></i>
+
+            <i class="fa-solid fa-forward-step"></i>
+        </div>
+
+        <input type="range" min="0" max="100" value="40">
+
+    </div>
+
+    <!-- Right -->
+    <div class="volume">
+
+        <i class="fa-solid fa-volume-high"></i>
+
+        <input type="range" min="0" max="100" value="70">
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
